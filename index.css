@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content:center;
+}
+
+nav{ display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content: stretch;
+    margin-top: 2px;
+    margin-bottom:15px ;
+    
+}
+.container{width: 90%;
+    margin: auto;
+}
+
+
+
+
+.bir{
+    background-color:darkgrey ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.iki{
+    background-color:cadetblue;
+    display: flex;
+    flex-grow: 2;
+    margin-right: 3px;
+}
+
+.uc{
+    background-color: rgb(27, 133, 83);
+    display: flex;
+    flex-grow:1;
+    margin-right: 3px;
+}
+
+
+
+.dort{
+    background-color: rgb(15, 107, 35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+ul { 
+    list-style-type:none; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;}
